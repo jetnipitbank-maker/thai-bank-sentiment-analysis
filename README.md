@@ -27,9 +27,10 @@ THE STOCK EXCHANGE OF THAILAND
 │   ├── sample_news_data.csv           
 │   └── sample_stock_data.csv          
 └── src/                               # โฟลเดอร์หลักสำหรับซอร์สโค้ด
-    ├── 01_news_scraping.ipynb         # สคริปต์ Selenium/Scrapy สำหรับดึงข้อมูลข่าว
-    ├── 02_text_preprocessing.ipynb    # การทำความสะอาดข้อความภาษาไทย
-    ├── 03_sentiment_model.ipynb       # การปรับแต่ง (Fine-tuning) WangchanBERTa และ ModernBERT
-    ├── 04_event_study.ipynb           # การวิเคราะห์ Event Studies เมื่อมีข่าวเชิงบวก/ลบ
-    ├── 05_panel_regression.ipynb      # การทดสอบสมมติฐานด้วย Panel Data Regression
-    └── 06_portfolio_optimization.R    # การทดสอบกลยุทธ์การลงทุน (MVO, Risk Parity)
+    ├── 01_news_scraping.ipynb         # กระบวนการดึงข้อมูลข่าวการเงินทั่วไป
+    ├── 02_text_preprocessing.ipynb    # กระบวนการดึงข้อมูลข่าวรายธนาคาร
+    ├── 03_sentiment_model.ipynb       # กระบวนการ Domain Adaptive Pre-training
+    ├── 04_event_study.ipynb           # กระบวนการติดฉลากข้อมูลอัตโนมัติ
+    ├── 05_panel_regression.ipynb      # กระบวนการ Finetuning
+    ├── 06_portfolio_optimization.R    # กระบวนการติดฉลากข่าวธนาคารรายตัวปี 2025
+    └── 07_portfolio_optimization.R    # กระบวนการวิเคราะห์ผล
