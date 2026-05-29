@@ -22,10 +22,7 @@ THE STOCK EXCHANGE OF THAILAND
 ## 📁 โครงสร้างของพื้นที่จัดเก็บ (Repository Structure)
 
 ```text
-├── README.md                          # รายละเอียดของโปรเจกต์
-├── data/                              # โฟลเดอร์สำหรับตัวอย่างชุดข้อมูล (Sample Data)
-│   ├── sample_news_data.csv           
-│   └── sample_stock_data.csv          
+├── README.md                                      # รายละเอียดของโปรเจกต์        
 └── src/                                           # โฟลเดอร์หลักสำหรับซอร์สโค้ด
     ├── 01_financial_news_scrapper.ipynb           # กระบวนการดึงข้อมูลข่าวการเงินทั่วไป
     ├── 02_banks_news_scrapper.ipynb               # กระบวนการดึงข้อมูลข่าวรายธนาคาร
