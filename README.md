@@ -26,11 +26,11 @@ THE STOCK EXCHANGE OF THAILAND
 ├── data/                              # โฟลเดอร์สำหรับตัวอย่างชุดข้อมูล (Sample Data)
 │   ├── sample_news_data.csv           
 │   └── sample_stock_data.csv          
-└── src/                               # โฟลเดอร์หลักสำหรับซอร์สโค้ด
-    ├── 01_news_scraping.ipynb         # กระบวนการดึงข้อมูลข่าวการเงินทั่วไป
-    ├── 02_text_preprocessing.ipynb    # กระบวนการดึงข้อมูลข่าวรายธนาคาร
-    ├── 03_sentiment_model.ipynb       # กระบวนการ Domain Adaptive Pre-training
-    ├── 04_event_study.ipynb           # กระบวนการติดฉลากข้อมูลอัตโนมัติ
-    ├── 05_panel_regression.ipynb      # กระบวนการ Finetuning
-    ├── 06_portfolio_optimization.R    # กระบวนการติดฉลากข่าวธนาคารรายตัวปี 2025
-    └── 07_portfolio_optimization.R    # กระบวนการวิเคราะห์ผล
+└── src/                                           # โฟลเดอร์หลักสำหรับซอร์สโค้ด
+    ├── 01_financial_news_scrapper.ipynb           # กระบวนการดึงข้อมูลข่าวการเงินทั่วไป
+    ├── 02_banks_news_scrapper.ipynb               # กระบวนการดึงข้อมูลข่าวรายธนาคาร
+    ├── 03_domain_adaptive_pretraining.ipynb       # กระบวนการ Domain Adaptive Pre-training
+    ├── 04_auto_labeling.ipynb                     # กระบวนการติดฉลากข้อมูลอัตโนมัติ
+    ├── 05_finetuning.ipynb                        # กระบวนการ Finetuning
+    ├── 06_banks_news_labeling.ipynb               # กระบวนการติดฉลากข่าวธนาคารรายตัวปี 2025
+    └── 07_analyze.ipynb                           # กระบวนการวิเคราะห์ผล
